@@ -1,0 +1,1 @@
+Arquivos que tem que ficar na pasta build do Pedyrum.

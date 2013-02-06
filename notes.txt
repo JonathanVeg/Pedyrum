@@ -1,0 +1,9 @@
+2013-01-07
+    - na treatmentTable tem uma função chamada clearOrder. Lá tem algo para você fazer.
+
+    - como faremos na questão do pagamento da mesa composta? na mesa pai e filho, somente o pai pode add pagamento, mas em mesa composta? Junta tudo?
+
+2013-01-08
+    - apagar a apagação de pedidos.
+
+2013-01-18

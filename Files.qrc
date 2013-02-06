@@ -1,0 +1,111 @@
+<RCC>
+    <qresource prefix="/QSS">
+        <file alias="standard">Style/standard.qss</file>
+    </qresource>
+    <qresource prefix="/subMenu">
+        <file alias="buttonAdd">Image/ButtonAdd.png</file>
+        <file alias="buttonAdd-hover">Image/ButtonAdd-hover.png</file>
+        <file alias="background">Image/subMenu-background.png</file>
+        <file alias="buttonRemove">Image/ButtonRemove.png</file>
+        <file alias="buttonProfile">Image/ButtonProfile.png</file>
+        <file alias="buttonAnalytics">Image/ButtonAnalytics.png</file>
+        <file alias="buttonProfile-hover">Image/ButtonProfile-hover.png</file>
+        <file alias="buttonAnalytics-hover">Image/ButtonAnalytics-hover.png</file>
+        <file alias="buttonRemove-hover">Image/ButtonRemove-hover.png</file>
+        <file alias="buttonCloseBox">Image/ButtonCloseBox.png</file>
+        <file alias="buttonCloseBox-hover">Image/ButtonCloseBox-hover.png</file>
+        <file alias="buttonOpenBox">Image/ButtonOpenBox.png</file>
+        <file alias="buttonOpenBox-hover">Image/ButtonOpenBox-hover.png</file>
+        <file alias="buttonCalc">Image/ButtonCalc.png</file>
+        <file alias="buttonCalc-hover">Image/ButtonCalc-hover.png</file>
+    </qresource>
+    <qresource prefix="/Extras">
+        <file alias="clear">Image/clear.png</file>
+        <file alias="search">Image/Search.png</file>
+        <file alias="down">Image/donw.png</file>
+        <file alias="point">Image/point.png</file>
+        <file alias="point-alternate">Image/point-Alternate.png</file>
+        <file alias="point-hover">Image/point-hover.png</file>
+        <file alias="question">Image/Question.png</file>
+        <file alias="close-message">Image/close-message.png</file>
+        <file alias="logo-fullscreen">Image/logo-fullscreen.png</file>
+        <file alias="splash">Image/Splash.png</file>
+        <file alias="menu-user-config">Image/menu-logo-cofig.png</file>
+        <file alias="menu-user-exit">Image/menu-logo-exit.png</file>
+        <file alias="menu-user-help">Image/menu-logo-help.png</file>
+        <file alias="message-alert">Image/logoAlert-Message.png</file>
+        <file alias="credito-logo">Image/credito-logo.png</file>
+        <file alias="slide-left">Image/Slide-arrow-left.png</file>
+        <file alias="slide-right">Image/Slide-arrow-right.png</file>
+    </qresource>
+    <qresource prefix="/topMenu">
+        <file alias="background">Image/topMenu-background.png</file>
+        <file alias="menuButton">Image/menuButton.png</file>
+        <file alias="menuButton-hover">Image/menuButton-hover.png</file>
+        <file alias="fullscreen-off">Image/fullScreen-off.png</file>
+        <file alias="fullscreen-on">Image/fullScreen-on.png</file>
+    </qresource>
+    <qresource prefix="/sideBar">
+        <file alias="up">Image/sideMenuUp.png</file>
+        <file alias="down">Image/sideMenuDown.png</file>
+        <file alias="up-alternate">Image/sideMenuUp-Alternate.png</file>
+        <file alias="down-alternate">Image/sideMenuDown-Alternate.png</file>
+        <file alias="client">Image/client.png</file>
+        <file alias="functionary">Image/functionary.png</file>
+        <file alias="product">Image/product.png</file>
+        <file alias="treatment">Image/logoTreatment.png</file>
+        <file alias="ordered">Image/logoOrdered.png</file>
+        <file alias="finance">Image/logoFinance.png</file>
+        <file alias="null">Image/logoInacabado.png</file>
+        <file alias="alert">Image/logoAlert.png</file>
+        <file alias="config">Image/logoConfig.png</file>
+        <file alias="jaguati">Image/logoJaguati.png</file>
+        <file alias="web">Image/logoWeb.png</file>
+    </qresource>
+    <qresource prefix="/treatment">
+        <file alias="fieldBackground">Image/fieldTreatment.png</file>
+        <file alias="icopizza">Image/IcoPizza.png</file>
+        <file alias="icopizza-hover">Image/IcoPizza-hover.png</file>
+        <file alias="field-notes-Background">Image/fieldTreatmentNotes.png</file>
+        <file alias="icoNote">Image/IcoNote.png</file>
+        <file alias="icoNote-alternate">Image/IcoNote-Alternate.png</file>
+        <file alias="icoNote-hover">Image/IcoNote-hover.png</file>
+        <file alias="schedule">Image/agendamento.png</file>
+        <file alias="schedule-hover">Image/agendamento-hover.png</file>
+        <file alias="scheduleBG">Image/scheduleBG.png</file>
+        <file alias="icoClient">Image/icoClientTreatment.png</file>
+        <file alias="icoClient-hover">Image/icoClientTreatment-hover.png</file>
+        <file alias="joinTable">Image/join.png</file>
+        <file alias="media">Image/media.png</file>
+        <file alias="transfer">Image/transfer.png</file>
+        <file alias="treatment">Image/atendimento.png</file>
+    </qresource>
+    <qresource prefix="/pizzaMixed">
+        <file alias="background">Image/background-pizzamixed.png</file>
+    </qresource>
+    <qresource prefix="/QSS-Image">
+        <file alias="arrow-down">Image/Arrow-down.png</file>
+        <file alias="arrow-left">Image/Arrow-left.png</file>
+        <file alias="arrow-right">Image/Arrow-right.png</file>
+        <file alias="arrow-up">Image/Arrow-up.png</file>
+        <file alias="QCheckBox-checked">Image/QCheckBox_checked.png</file>
+        <file alias="QCheckBox-checked-hover">Image/QCheckBox_checked_hover.png</file>
+        <file alias="QCheckBox-unchecked">Image/QCheckBox_unchecked.png</file>
+        <file alias="QCheckBox-unchecked-hover">Image/QCheckBox_unchecked_hover.png</file>
+    </qresource>
+    <qresource prefix="/NetConfig">
+        <file alias="logoNetwork">Image/logoNetwork.png</file>
+    </qresource>
+    <qresource prefix="/Icon">
+        <file alias="pedyrum-icon">Image/Pedyrum 4.png</file>
+    </qresource>
+    <qresource prefix="/Config-Icon">
+        <file alias="ordered">Image/Config-ordered.png</file>
+        <file alias="business">Image/Config-Business.png</file>
+        <file alias="backupRestore">Image/Config-BackupRestore.png</file>
+        <file alias="account">Image/Config-Account.png</file>
+        <file alias="alerts">Image/Config-Alerts.png</file>
+        <file alias="paymentForm">Image/Config-paymentform.png</file>
+        <file alias="network">Image/Config-Network.png</file>
+    </qresource>
+</RCC>

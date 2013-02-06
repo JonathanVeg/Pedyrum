@@ -1,0 +1,8 @@
+Classes de mesa:
+
+dataItem: tem TUDO das mesas, junções, pais, filhos, etc.
+
+generalData: tem os models - Se comunica com a dataItem
+
+groupDesk: tem a parte visual
+
