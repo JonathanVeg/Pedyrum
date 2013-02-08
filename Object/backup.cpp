@@ -118,7 +118,9 @@ void Backup::createBackup(QString fileName)
 
                 j++;
 
-                Sleep(1);
+		#ifdef WINDOWS
+			Sleep(1);
+		#endif
 
                 emit currentPositionBackup(current);
             }
