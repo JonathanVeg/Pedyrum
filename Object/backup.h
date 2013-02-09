@@ -23,7 +23,10 @@ Copyright (c) 2013, Jonathan,  jonathan@jaguati.com.br
 #include <Abstract/bdtools.h>
 #include <Abstract/encryption.h>
 #include <Abstract/tools.h>
-#include <process.h>
+
+#ifdef WINDOWS
+	#include <process.h>
+#endif
 
 class Backup : public QObject
 {

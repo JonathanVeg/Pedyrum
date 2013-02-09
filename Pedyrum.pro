@@ -180,3 +180,12 @@ RESOURCES += Files.qrc
 
 OTHER_FILES += \
     notes.txt
+
+# Defines para diferenciar o S.O.
+win32 {
+	WINDOWS = 1
+}
+
+unix {
+	LINUX = 1
+}

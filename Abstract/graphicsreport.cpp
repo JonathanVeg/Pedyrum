@@ -208,7 +208,7 @@ void GraphicsReport::drawSectors(){
     int spanAngle;
 
     foreach (float a, angles){
-        p.setBrush(QBrush::QBrush(colors[index]));
+        p.setBrush(QBrush(colors[index]));
 
         QRectF rect(marginHorizontal, marginVertical, radius, radius);
 

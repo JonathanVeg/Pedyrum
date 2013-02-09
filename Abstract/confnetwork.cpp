@@ -28,7 +28,10 @@ Copyright (c) 2013, Jonathan,  jonathan@jaguati.com.br
 #include <QDir>
 #include <QDesktopServices>
 #include <QUrl>
-#include <windows.h>
+
+#ifdef WINDOWS
+	#include <windows.h>
+#endif
 
 ConfNetwork::ConfNetwork(QWidget *parent) :
     QWidget(parent)

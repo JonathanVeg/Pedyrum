@@ -186,7 +186,7 @@ void Graphics::drawSectors()
         p.setRenderHint(QPainter::Antialiasing, true);
         //p.setPen(QPen(Qt::black));
         p.setPen(QPen(Qt::NoPen)); // não mostrará linhas demarcadoras
-        p.setBrush(QBrush::QBrush(colors[i]));
+        p.setBrush(QBrush(colors[i]));
 
         QRectF rectangle(15,15, radius, radius);
         angle += angles[i];
