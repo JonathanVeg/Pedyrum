@@ -320,7 +320,10 @@ bool Config::loadDataUser(QString idUser)
         cancash = levels[8] == "true"? true: false;
         cancreateuser = levels[9] == "true"? true: false;
         canalteraccess = levels[10] == "true"? true: false;
+
+	return true;
     }
+	return false;
 }
 
 bool Config::insertUserAccount()
