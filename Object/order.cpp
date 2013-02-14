@@ -83,6 +83,8 @@ void Order::instance()
 
 bool Order::insertOrder(){
 
+    qDebug() << " ---------------- SIZES" << orderSizes ;
+
     Q_UNUSED(orderNameProduct);
 
     // insert de pedido
@@ -334,7 +336,12 @@ bool Order::insertOrder(){
             sql += idOrder + ", ";
             sql += QString::number(i + 1) + ", ";
             sql += orderIdProduct.value(i).value(j) + ", ";
-            sql += QString::number(orderPartProduct.value(i).value(j)) + ")";
+            sql += QString::number(orderPartProduct.value(i).value(j)) + ", ";
+
+            if (bd.search("select idsize from size where name = '" + orderSizes.value(i) + "'"))
+                sql += bd.loadSimple(0);
+
+            sql += ")"; // idsize aqui
 
             if (! bd.exec(sql)){
                 qDebug() << "[order] [insertOrder] erro na sql" << sql;

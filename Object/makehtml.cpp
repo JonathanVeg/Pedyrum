@@ -330,7 +330,7 @@ QString MakeHTML::createHTMLOrder(int idOrder)
             "margin-right: 0px; -qt-block-indent: 0; text-indent: 0px; font-size: " + H5 + "; font-weight: 600; color: #616161;\"></p>"
             "<p align=\"center\" style=\" margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-block-indent: 0;"
             "text-indent: 0px;\"><span style=\" font-size: " + H5 + "; font-weight: 600; color: #6d6d6d;\">"
-            "[" + tr("Qnt") + "] [ " + tr("Produto") + "] [ " + tr("Valor") + "] [ " + tr("Anotação") + "] </span></p>"
+            "[" + tr("Qnt") + "] [" + tr("Produto") + "] [" + tr("Tamanho") + "] [" + tr("Valor") + "] [" + tr("Anotação") + "] </span></p>"
             "<p align=\"center\" style=\"-qt-paragraph-type: empty; margin-top: 0px; margin-bottom: 0px; margin-left: " + H5 + ";"
             "margin-right: 0px; -qt-block-indent: 0; text-indent: 0px; font-size: " + H5 + "; font-weight: 600; color: #6d6d6d;\"></p>"
             "<hr/>"
@@ -351,6 +351,8 @@ QString MakeHTML::createHTMLOrder(int idOrder)
             listItens += "Pizza mista";
         else
             listItens += order->orderNameProduct.value(i).value(0);
+
+        listItens += " - " + order->orderSizes.value(i);
 
         listItens += "</span><span style=\" font-size:" + H4 + ";"
                 "font-weight:600; color:#6d6d6d;\"> - " + QString::number(order->orderValues.value(i));
